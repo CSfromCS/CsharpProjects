@@ -1,0 +1,14 @@
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.deps.json
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.runtimeconfig.json
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.dll
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.pdb
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfoInputs.cache
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfo.cs
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.dll
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/refint/TestProject.dll
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.pdb
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.genruntimeconfig.cache
+/Users/cs/Documents/Work/Coding/Test Space/C#/CsharpProjects/TestProject/obj/Debug/net9.0/ref/TestProject.dll
