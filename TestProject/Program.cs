@@ -1,31 +1,39 @@
-﻿// Random dice = new Random();
+﻿using System;
+using System.Linq;
+using System.Reflection;
 
-// int roll1 = dice.Next(1, 7);
-// int roll2 = dice.Next(1, 7);
-// int roll3 = dice.Next(1, 7);
+class Program
+{
+    static void Main(string[] args)
+    {
+        if (args.Length == 0)
+        {
+            Console.WriteLine("Usage: dotnet run -- <ClassName>");
+            return;
+        }
 
-// int total = roll1 + roll2 + roll3;
+        string className = args[0];
 
-// Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
-// if ((roll1 == roll2) && (roll2 == roll3)) 
-// {
-//     Console.WriteLine("You rolled triples! +6 bonus to total!");
-//     total += 6;
-// }
-// else if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
-// {
-//     Console.WriteLine("You rolled doubles! +2 bonus to total!");
-//     total += 2;
-// }
+        // Find the type in the current assembly
+        Type type = Assembly.GetExecutingAssembly().GetTypes()
+            .FirstOrDefault(t => t.Name.Equals(className, StringComparison.OrdinalIgnoreCase));
 
+        if (type == null)
+        {
+            Console.WriteLine($"Class '{className}' not found.");
+            return;
+        }
 
-// if (total >= 15)
-// {
-//     Console.WriteLine("You win!");
-// }
+        // Find the Execute method
+        MethodInfo method = type.GetMethod("Execute", BindingFlags.Public | BindingFlags.Static);
 
-// if (total < 15)
-// {
-//     Console.WriteLine("Sorry, you lose.");
-// }
+        if (method == null)
+        {
+            Console.WriteLine($"Class '{className}' does not have a static 'Execute' method.");
+            return;
+        }
 
+        // Invoke the Execute method
+        method.Invoke(null, null);
+    }
+}
