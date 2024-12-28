@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: TestProject",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/TestProject/bin/Debug/net9.0/TestProject.dll",
+            "args": ["Debugging"],
+            "cwd": "${workspaceFolder}/TestProject",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}
