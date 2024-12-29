@@ -23,8 +23,8 @@ foreach (string name in names)
     Console.WriteLine(messageText + "\n\r");
 }
 
-bool pauseCode = true;
-while (pauseCode == true);
+// bool pauseCode = true;
+// while (pauseCode == true);
 
 static string SophiaMessage()
 {
@@ -35,5 +35,21 @@ static string AndrewMessage()
 {
     return "Hi, my name is Andrew. Good to meet you.";
 }
+
+/*  
+This code instantiates a value and then calls the ChangeValue method
+to update the value. The code then prints the updated value to the console.
+*/
+int x = 5;
+
+ChangeValue(out x);
+
+Console.WriteLine(x);
+
+void ChangeValue(out int value) 
+{
+    value = 10;
+}
+
         }
 }
