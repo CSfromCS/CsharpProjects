@@ -4,3 +4,11 @@ GET {{WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{WebAPI_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+GET https://www.christiansarabia.com/resume
+Accept: text/html
